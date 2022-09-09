@@ -1,14 +1,73 @@
 @charset "UTF-8";
 /* CSS Document */
-
 /* General Elements */
+
+.hidden {
+  display: none;
+}
+
+h2, h3 {
+  font-family: futura-pt, sans-serif;
+  color: #0F0503;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+p {
+  font-family: futura-pt, sans-serif;
+  color: #0F0503;
+  font-size: 15px;
+  font-weight: 400;
+}
 
 
 /* Header */
 
+#head {
+  background-color: #7BAFF5;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 
 /* Header Nav */
 
+#headNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mainNavi a {
+  text-decoration: none;
+}
+
+.logoPadding {
+  margin-right: 120px;
+}
+
+/* Header Social Media */
+
+#headSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* img */
+#homeImg {
+  height: 700px;
+  background-color: lightgray;
+}
+
+/* contents */ 
+
+#contents {
+  height: 2000px;
+  background-color: white;
+}
 
 
 /* Main Page */
@@ -80,3 +139,32 @@
 }
 
 /* Footer */
+#foot {
+  background-color: #2C7847;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.footNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footAddress {
+  display: flex;
+  flex-direction: row;
+  margin-left: -800px;
+}
+
+#footSocial {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialM {
+  margin-right: 5px;
+}
+
