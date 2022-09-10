@@ -2,22 +2,23 @@
 /* CSS Document */
 /* General Elements */
 
+@font-face {
+  src : url("../font/trebuc.ttf"); 
+  font-family: "trebuc";
+}
+
+@font-face {
+  src : url("../font/trebuc_bold.ttf"); 
+  font-family: "trebuc_bold";
+}
+
+
 .hidden {
   display: none;
 }
 
-h2, h3 {
-  font-family: futura-pt, sans-serif;
+h2, h3, p {
   color: #0F0503;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-p {
-  font-family: futura-pt, sans-serif;
-  color: #0F0503;
-  font-size: 15px;
-  font-weight: 400;
 }
 
 
@@ -29,6 +30,12 @@ p {
   padding-right: 80px;
 }
 
+#head h2, h3 {
+  font-family: futura-pt, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 
 /* Header Nav */
 
@@ -36,8 +43,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .mainNavi a {
@@ -56,21 +63,77 @@ p {
   justify-content: space-between;
 }
 
+.socialImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 22px;
+}
+
+.socialImg2 {
+  width: 40px;
+  height: 40px;
+}
+
 /* img */
 #homeImg {
   height: 700px;
   background-color: lightgray;
 }
 
-/* contents */ 
-
-#contents {
-  height: 2000px;
-  background-color: white;
-}
 
 
 /* Main Page */
+#contents h2 {
+  font-family: "trebuc_bold";
+  font-size: 32px;
+}
+
+#contents h3 {
+  font-family: "trebuc";
+  font-size: 22px;
+}
+
+/* Section 1*/
+#teamIntro {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#teamIntro h2 {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+#teamIntro h2:hover {
+  border-bottom: #B163EC 3px solid;
+}
+
+#team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+
+.members img {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Section 2*/
+#portfolio {
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
 
 
 /* Main page, media query, tablet */
@@ -141,30 +204,38 @@ p {
 /* Footer */
 #foot {
   background-color: #2C7847;
-  padding-left: 80px;
-  padding-right: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+#foot p {
+  font-family: futura-pt, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .footNav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 #footAddress {
   display: flex;
   flex-direction: row;
-  margin-left: -800px;
+  margin-left: 50px;
+}
+
+#footAddress img {
+  width: 50px;
+  height: 50px;
 }
 
 #footSocial {
   display: flex;
   flex-direction: row;
-}
-
-.socialM {
-  margin-right: 5px;
+  padding-top: 10px;
 }
 
