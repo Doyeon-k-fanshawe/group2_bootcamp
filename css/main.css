@@ -133,6 +133,15 @@ h2, h3, p {
   margin-bottom: 30px;
 }
 
+button {
+  font-size: 24px;
+  margin: 1em;
+  padding: .5em 1em;
+  transition: all .3s linear 0s;
+  background-color: #B163EC;
+  color: white;
+}
+
 /* Section 2*/
 #portfolio {
   text-align: center;
