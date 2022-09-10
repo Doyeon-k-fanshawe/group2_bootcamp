@@ -8,6 +8,7 @@
     buttonCarson = document.querySelector("#Carson"),
     buttonAbram = document.querySelector("#Abram");
     toggleState = 0;
+    descNumber = 0;
 
     // Arrays
     const EvanData = [
@@ -69,9 +70,15 @@
             // make it so the box is now visible
             nameBox.classList.remove("hidden");
 
-            // add the info to the webpage
-            employeeInfo.append(currentInfo);
+            // let's do something stupid
+            if (descNumber == 0) {
+                // add the info to the webpage
+                employeeInfo.append(currentInfo);
 
+                descNumber = descNumber + 1;
+            }
+            
+            // the button is now on
             toggleState = 1;
         } else if (toggleState == 1) {
             // the button is currently on
