@@ -123,7 +123,13 @@ h2, h3, p {
   justify-content: space-between;
   padding-left: 200px;
   padding-right: 200px;
+}
 
+.descriptorBox {
+  display: flex;
+  padding: 1em;
+  margin: 1em;
+  color: #B163EC;
 }
 
 .members img {
