@@ -55,6 +55,11 @@ h2, h3, p {
   margin-right: 120px;
 }
 
+.logoImage {
+  height: 50px;
+  width: 50px;
+}
+
 /* Header Social Media */
 
 #headSocial {
