@@ -412,7 +412,7 @@ nav li {
 
 #introTeam h2 {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: inline-block;
   padding-bottom: 10px;
   width: 500px;
@@ -421,6 +421,13 @@ nav li {
 
 #introTeam h2:hover {
   border-bottom: #B163EC 3px solid;
+}
+
+.agencyIntro {
+  font-family: "trebuc";
+  font-size: 20px !important;
+  line-height: 30px;
+  margin-bottom: 100px;
 }
 
 .membersIntro {
@@ -436,11 +443,19 @@ nav li {
 .membersIntro h3 {
   display: inline-block;
   margin-left: 20px;
+  line-height: 35px;
 }
 
 .membersIntro p {
   margin-top: 10px;
-  line-height: 20px;
+  font-size: 18px !important;
+  line-height: 25px;
+}
+
+.deco h4 {
+  font-family: "trebuc";
+  font-size: 20px;
+  color: #B163EC
 }
 
 
@@ -562,9 +577,22 @@ nav li {
   padding-bottom: 50px;
 }
 
-#portfolio h2 {
-  margin-bottom: 30px;
+#portfolio {
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#portfolio h2 {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+#portfolio h2:hover {
+  border-bottom: #B163EC 3px solid;
 }
 
 #portfolio p {
@@ -572,6 +600,7 @@ nav li {
   text-align: left;
   line-height: 25px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #portfolioSection {
@@ -593,7 +622,7 @@ nav li {
 
 
 .work {
-  background-color: #7BAFF5;
+  /* background-color: #7BAFF5; */
   margin-bottom: 1em;
   height: 300px;
   flex-grow: 1;
@@ -606,26 +635,24 @@ nav li {
   margin-bottom: 0;
 }
 
-.work:nth-child(2) {
-  width: 600px;
+.work:nth-child(1) {
+  width: 500px;
+  margin-right: 50px;
   flex-grow: 0;
-  background-image: url(../images/portfolio_img1.png);
-  background-position: center center;
 }
 
-.workVideo video {
-  width: 535px;
-  position: absolute;
-  left: 200px;
-  top: 1400px;
+.work:nth-child(1) img {
+  width: 100%;
 }
 
-.workVideo2 video {
-  width: 800px;
-  height: 400px;
-  position: absolute;
-  left: 150px;
-  top: 2232px;
+.work:nth-child(2) {
+  width: 500px;
+  flex-grow: 0;
+  margin-left: 10px;
+}
+
+.work:nth-child(2) video {
+  width: 500px;
 }
 
 .work:nth-child(3) {
@@ -636,29 +663,38 @@ nav li {
 .work:nth-child(4) {
   margin-right: 1.25em;
   min-height: 400px;
-  background-image: url(../images/portfolio_img2.png);
-  background-position: center center;
+  flex-grow: 0;
 }
 
+.work:nth-child(4) video{
+  margin-right: 1.25em;
+  width: 650px;
+}
+
+
 .work:nth-child(5) {
-  width: 380px;
-  min-height: 400px;
+  background-color: #7BAFF5;
+  width: 300px;
+  min-height: 350px;
   flex-grow: 0;
   background-image: url(../assets/apeiron_logo.svg);
   background-repeat: no-repeat;
   background-position: 65%;
+  margin-left: 35px;
+  margin-top: 25px;
 }
 
 .work:nth-child(5):hover {
   cursor: pointer;
   opacity: 0.7;
-  transform: scale(1.2);
+  transform: scale(1.1);
 
   -moz-transition: all .6s ease-in-out;
   -webkit-transition: all .6s ease-in-out;
   -o-transition: all .6s ease-in-out;
   transition: all .6s ease-in-out;
 }
+
 
 /* Portfolio Features page, media query, tablet */
 
@@ -717,7 +753,8 @@ nav li {
 
 .featureText p {
   font-family: "trebuc";
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .featureWork {

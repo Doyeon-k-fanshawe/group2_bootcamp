@@ -13,13 +13,13 @@
   // Arrays
   const EvanData = [
       0,
-      "Evan Hansen is the chief creative director at Apeiron and frequently spearheads projects that clients commission.",
+      "Evan Hansen is the Chief Creative Director at Apeiron and frequently spearheads projects that clients commission.",
   ]
 
   const DoyeonData = [
       1,
       // put your life story here
-      "",
+      "Doyeon Kim is the Digital Director at Apeiron and tries to meet the needs of our clients.",
   ]
 
   const CarsonData = [
