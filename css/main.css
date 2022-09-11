@@ -143,12 +143,26 @@ h2, h3, p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
-
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+
+.descriptorBox {
+  display: flex;
+  padding: 1em;
+  margin: 1em;
+  color: #B163EC;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .members img {
+  display: inline-block;
   width: 100px;
   height: 100px;
   margin-top: 50px;
