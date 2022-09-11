@@ -30,8 +30,7 @@
 
   const AbramData = [
       3,
-      // put your life story here
-      "",
+      "Abram Kouwen is a Motion Graphics Designer with years of experience working with major brands. He aspires to convey your message in the best way possible.",
   ]
 
   // A conversion function that will take the name from the button and return an array based on that name
@@ -99,3 +98,4 @@
   
 })();
 Footer
+
