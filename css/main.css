@@ -121,8 +121,8 @@ nav li {
 /* body contents */
 
 #contents {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 #contents h2 {
@@ -637,7 +637,7 @@ nav li {
 
 .work:nth-child(1) {
   width: 500px;
-  margin-right: 50px;
+  margin-right: 25px;
   flex-grow: 0;
 }
 
@@ -680,7 +680,7 @@ nav li {
   background-image: url(../assets/apeiron_logo.svg);
   background-repeat: no-repeat;
   background-position: 65%;
-  margin-left: 35px;
+  margin-left: 30px;
   margin-top: 25px;
 }
 
