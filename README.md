@@ -1,3 +1,5 @@
+![Apeiron Logo](images/apeiron_logo.png)
+
 # Apeiron Inc.
 
 ## About Us
