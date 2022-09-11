@@ -137,7 +137,7 @@ nav li {
 
 #contents p {
   font-family: "trebuc";
-  font-size: 15px;
+  font-size: 16px;
 }
 
 button {
@@ -152,6 +152,13 @@ button {
 }
 
 button:hover {
+  font-size: 18pt;
+  border-radius: 1em;
+  background-color: #2C7847;
+  color: #DBD1CF;
+}
+
+button:active, .active {
   font-size: 18pt;
   border-radius: 1em;
   background-color: #2C7847;
@@ -450,6 +457,9 @@ button:hover {
 
 .membersIntro {
   margin-bottom: 80px;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #DBD1CF;
 }
 
 .membersIntro img {
