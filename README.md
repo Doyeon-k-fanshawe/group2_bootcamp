@@ -7,9 +7,9 @@ Apeiron Inc. is an advertising agency founded in 2022 and baed in London, Ontari
 Any modern web browser since 2018. Simply clone the repo and open the index page.
 
 ## Contributors 
-Evan Hansen
-Abram Kouwen
-Carson Flitzgeorge
+Evan Hansen, 
+Abram Kouwen, 
+Carson Flitzgeorge, 
 Doyeon Kim
 
 ## Made with
