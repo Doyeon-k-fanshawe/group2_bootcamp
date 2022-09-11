@@ -24,10 +24,21 @@ h2, h3, p {
 
 /* Header */
 
+header {
+  position: sticky;
+  top: 0px;
+  filter: drop-shadow(0px 1px 3px black);
+}
+
 #head {
+  display: flex;
   background-color: #7BAFF5;
   padding-left: 80px;
   padding-right: 80px;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  gap: 5em;
 }
 
 #head h2, h3 {
@@ -55,6 +66,12 @@ h2, h3, p {
   padding-bottom: 20px;
 }
 
+nav li {
+  display: inline;
+  padding: 1em;
+  border-radius: 3px;
+}
+
 .mainNavi a {
   text-decoration: none;
 }
@@ -72,7 +89,14 @@ h2, h3, p {
 #headSocial {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  float: right;
+}
+
+.headerFlex {
+  display: flex;
+  align-content: space-around;
 }
 
 .socialImg {
