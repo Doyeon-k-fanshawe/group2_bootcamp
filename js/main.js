@@ -13,19 +13,19 @@
   // Arrays
   const EvanData = [
       0,
-      "Evan Hansen is the chief creative director at Apeiron and frequently spearheads projects that clients commission.",
+      "Evan Hansen is the Chief Creative Director at Apeiron and frequently spearheads projects that clients commission.",
   ]
 
   const DoyeonData = [
       1,
       // put your life story here
-      "",
+      "Doyeon Kim is the Digital Director at Apeiron and tries to meet the needs of our clients.",
   ]
 
   const CarsonData = [
       2,
       // put your life story here
-      "",
+      "Carson Fitzgeorge is a 2D Graphics Artist and Wireframe Developer at Apeiron and excels when working with clients in need of website wireframes.",
   ]
 
   const AbramData = [
@@ -63,29 +63,27 @@
 
       employeeInfo = nameBox.getElementsByClassName("employeeInfo")[0];
 
+    //If the button hasn't been clicked yet, then add the relative data. When closed, will wipe the data
       if (toggleState == 0) {
-          //the button is currently off
+        //the button is currently off
 
-          // make it so the box is now visible
-          nameBox.classList.remove("hidden");
+        // make it so the box is now visible
+        nameBox.classList.remove("hidden");
 
-          // let's do something stupid
-          if (descNumber == 0) {
-              // add the info to the webpage
-              employeeInfo.append(currentInfo);
+        // add the info to the webpage
+        employeeInfo.append(currentInfo);
 
-              descNumber = descNumber + 1;
-          }
-          
-          // the button is now on
-          toggleState = 1;
+        // the button is now on
+        toggleState = 1;
       } else if (toggleState == 1) {
-          // the button is currently on
+        // the button is currently on
 
-          // make the box invisible. Pretty simple, huh?
-          nameBox.classList.add("hidden");
+        // clean the text
+        employeeInfo.innerText = "";
+        // make the box invisible. Pretty simple, huh?
+        nameBox.classList.add("hidden");
 
-          toggleState = 0;
+        toggleState = 0;
       }
   }
 
@@ -97,5 +95,4 @@
   buttonAbram.addEventListener("click", (event)=>showEmployee(event,"Abram"));
   
 })();
-Footer
 

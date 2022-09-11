@@ -2,38 +2,44 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title class="hidden"></title>
+<title class="hidden">Apeiron Index Page</title>
 <link rel="stylesheet" href="https://use.typekit.net/zwq2ock.css">
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <!--header start -->
 <body>
-    <h1 class="hidden"></h1>
+    <h1 class="hidden">Apeiron Index</h1>
     <a class="hidden" href="#content">Skip to content</a>
     <header>
       <nav id="head">
         <h2 class="hidden">Main Navigation</h2>
         <ul id="headNav">
           <li class="mainNavi logoPadding logoDesign"><a href="1_index.html"><img src="assets/apeiron_logo.svg" alt="Logo"><h3 class="hidden">Logo</h3></a></li>
-          <li class="mainNavi"><a href="#"><h3>Index</h3></a></li>
-          <li class="mainNavi"><a href="2_about.html"><h3>About</h3></a></li>
-          <li class="mainNavi"><a href="3_contact.html"><h3>Contact</h3></a></li>
-          <li class="mainNavi"><a href="4_portfolio.html"><h3>Portfolio</h3></a></li>
-          <div id="headSocial">
-            <li class="socialImg"><a href="#"><img src="images/social_twitter.svg" alt="twitter logo"><h3 class="hidden">Twitter</h3></a></li>
-            <li class="socialImg"><a href="#"><img src="images/social_instagram.svg" alt="Instagram logo"><h3 class="hidden">Instagram</h3></a></li>
-            <li class="socialImg2"><a href="#"><img src="images/social_indeed.svg" alt="Indeed logo"><h3 class="hidden">Indeed</h3></a></li>
-          </div>
-          <li class="hidden"><a href="#"><img src="" alt="Hamburger Icon"><h3 class="hidden">Menu</h3></a></li>
+          <li class="mainNavi disNone"><a href="#"><h3>Home</h3></a></li>
+          <li class="mainNavi navi"><a href="2_about.html"><h3>About</h3></a></li>
+          <li class="mainNavi navi"><a href="3_contact.html"><h3>Contact</h3></a></li>
+          <li class="mainNavi navi"><a href="4_portfolio.html"><h3>Portfolio</h3></a></li>
+          <li class="mainNavi disNo hamBG"><a href="#"><img src="images/hamburger_icon.svg" alt="Hamburger Icon"><h3 class="hidden">Menu</h3></a></li>
+        </ul>
+        <ul id="headSocial">
+          <li class="socialImg"><a href="#"><img src="images/social_twitter.svg" alt="twitter logo"><h3 class="hidden">Twitter</h3></a></li>
+          <li class="socialImg"><a href="#"><img src="images/social_instagram.svg" alt="Instagram logo"><h3 class="hidden">Instagram</h3></a></li>
+          <li class="socialImg2"><a href="#"><img src="images/social_indeed.svg" alt="Indeed logo"><h3 class="hidden">Indeed</h3></a></li>
         </ul>
       </nav>
     </header>
     <!-- header end -->
 
     <!-- hero start -->
-    <div id="homeImg"><img src=""></div>
+    <div id="heroImg">
+      <video autoplay muted loop>
+        <source src="assets/apeiron_promo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
     <!-- hero end -->
+
     <div id="contents">
       <!--section 1 start -->
       <section id="teamIntro">
@@ -41,26 +47,24 @@
         <!-- This is where the team members go -->
         <div id="team">
           <div class="members">
-            <img src="images/evan.jpg">
-            <button id="Evan">Evan Hansen</button>
+            <img src="images/evan.jpg" alt="A photo of Evan">
+            <button class="" id="Evan">Evan Hansen</button>
             <div id="EvanDesc" class="hidden toggleDesc">
               <p class="employeeInfo">
-                
               </p>
             </div>
           </div>
           <div class="members">
-            <img src="">
-            <button id="Doyeon">Doyeon Kim</button>
+            <img src="images/doyeon.jpg" alt="A photo of Doyeon">
+            <button class="" id="Doyeon">Doyeon Kim</button>
             <div id="DoyeonDesc" class="hidden toggleDesc">
               <p class="employeeInfo">
-                
               </p>
             </div>
           </div>
           <div class="members">
-            <img src="">
-            <button id="Carson">Carson Fitzgeorge</button>
+            <img src="images/carson.jpg" alt="A photo of Carson">
+            <button class="" id="Carson">Carson Fitzgeorge</button>
             <div id="CarsonDesc" class="hidden toggleDesc">
               <p class="employeeInfo">
                 
@@ -68,8 +72,8 @@
             </div>
           </div>
           <div class="members">
-            <img src="images/abram.jpg">
-            <button id="Abram">Abram Kouwen</button>
+            <img src="images/abram.jpg" alt="A photo of Abram">
+            <button class="" id="Abram">Abram Kouwen</button>
             <div id="AbramDesc" class="hidden toggleDesc">
               <p class="employeeInfo">
                 
@@ -79,13 +83,12 @@
         </div>
       </section>
       <!-- section1 end -->
-
-      <!-- section2 start -->
-      <section id="portfolio">
-        <h2>Portfolio</h2>
+    </div>
+    <!-- section2 start -->
+      <section id="indexPortfolio">
+        <h2><a href="4_portfolio.html">Portfolio</a></h2>
       </section>
       <!-- section2 end -->
-    </div>
 
     <!-- footer start -->
    <footer id="foot">
