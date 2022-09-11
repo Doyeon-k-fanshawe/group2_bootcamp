@@ -63,29 +63,27 @@
 
       employeeInfo = nameBox.getElementsByClassName("employeeInfo")[0];
 
+    //If the button hasn't been clicked yet, then add the relative data. When closed, will wipe the data
       if (toggleState == 0) {
-          //the button is currently off
+        //the button is currently off
 
-          // make it so the box is now visible
-          nameBox.classList.remove("hidden");
+        // make it so the box is now visible
+        nameBox.classList.remove("hidden");
 
-          // let's do something stupid
-          if (descNumber == 0) {
-              // add the info to the webpage
-              employeeInfo.append(currentInfo);
+        // add the info to the webpage
+        employeeInfo.append(currentInfo);
 
-              descNumber = descNumber + 1;
-          }
-          
-          // the button is now on
-          toggleState = 1;
+        // the button is now on
+        toggleState = 1;
       } else if (toggleState == 1) {
-          // the button is currently on
+        // the button is currently on
 
-          // make the box invisible. Pretty simple, huh?
-          nameBox.classList.add("hidden");
+        // clean the text
+        employeeInfo.innerText = "";
+        // make the box invisible. Pretty simple, huh?
+        nameBox.classList.add("hidden");
 
-          toggleState = 0;
+        toggleState = 0;
       }
   }
 
