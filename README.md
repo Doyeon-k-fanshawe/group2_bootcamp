@@ -1,4 +1,4 @@
-![Apeiron Logo](images/apeiron_logo.png)
+<img src="images/apeiron_logo.png" alt="Apeiron Logo" width="100px">
 
 # Apeiron Inc.
 
