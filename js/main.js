@@ -25,7 +25,7 @@
   const CarsonData = [
       2,
       // put your life story here
-      "",
+      "Carson Fitzgeorge is a 2D Graphics Artist and Wireframe Developer at Apeiron and excels when working with clients in need of website wireframes.",
   ]
 
   const AbramData = [
