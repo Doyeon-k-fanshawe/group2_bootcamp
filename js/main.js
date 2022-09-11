@@ -97,5 +97,4 @@
   buttonAbram.addEventListener("click", (event)=>showEmployee(event,"Abram"));
   
 })();
-Footer
 
