@@ -137,7 +137,32 @@ nav li {
 
 #contents p {
   font-family: "trebuc";
-  font-size: 15px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #B163EC;
+  padding: 1em;
+  margin: .5em;
+  border-radius: 3em;
+  transition: all .1s linear 0s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #0F0503;
+  font-size: 16pt;
+}
+
+button:hover {
+  font-size: 18pt;
+  border-radius: 1em;
+  background-color: #2C7847;
+  color: #DBD1CF;
+}
+
+button:active, .active {
+  font-size: 18pt;
+  border-radius: 1em;
+  background-color: #2C7847;
+  color: #DBD1CF;
 }
 
 /* Hero Img */
@@ -162,6 +187,13 @@ nav li {
 /* Main Page */
 
 /* Section 1*/
+
+.toggleDesc {
+  max-width: 180px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+}
+
 #teamIntro {
   text-align: center;
   padding-top: 150px;
@@ -432,6 +464,9 @@ nav li {
 
 .membersIntro {
   margin-bottom: 80px;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #DBD1CF;
 }
 
 .membersIntro img {
@@ -620,7 +655,6 @@ nav li {
   justify-content: center;
 }
 
-
 .work {
   /* background-color: #7BAFF5; */
   margin-bottom: 1em;
@@ -770,6 +804,7 @@ nav li {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 80px;
+  bottom: 0;
 }
 
 #foot p {
